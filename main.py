@@ -42,4 +42,4 @@ async def on_message(message):
         json.dump(data, file2, "")
         file2.close()
 
-client.run("OTIxODE3MTM4NTU2MjAzMDg4.Yb4bHA.H8KjQgH19HvtZffQjHaQQqTHY8s")
+client.run("TOKEN")

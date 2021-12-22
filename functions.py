@@ -23,7 +23,7 @@ def words_alphabetical(message):
         return False
 
     # Perform the check
-    return words == sorted(words)
+    return len(words) == len(set(words)) and words == sorted(words)
 
 
 def all_letters(message):
